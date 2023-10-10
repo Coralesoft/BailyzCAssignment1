@@ -73,14 +73,14 @@ void allocateMemory(char ***map, int ***carPlacement, int map_row, int map_col)
     *map = (char **)malloc(map_row * sizeof(char *));
     if (*map == NULL)
     {
-        fprintf(stderr, "Memory allocation failed for map. Exiting.\n");
+        printf("Memory allocation failed for map. Exiting.\n");
         exit(EXIT_FAILURE);  /* Terminate the program */
     }
 
     *carPlacement = (int **)malloc(map_row * sizeof(int *));
     if (*carPlacement == NULL)
     {
-        fprintf(stderr, "Memory allocation failed for carPlacement. Exiting.\n");
+        printf("Memory allocation failed for carPlacement. Exiting.\n");
         deallocateMemory(map, NULL, map_row); /* Free previously allocated memory */
         exit(EXIT_FAILURE);  /* Terminate the program */
     }
@@ -91,7 +91,7 @@ void allocateMemory(char ***map, int ***carPlacement, int map_row, int map_col)
         (*map)[i] = (char *)malloc(map_col * sizeof(char));
         if ((*map)[i] == NULL)
         {
-            fprintf(stderr, "Memory allocation failed for map row. Exiting.\n");
+            printf("Memory allocation failed for map row. Exiting.\n");
             deallocateMemory(map, carPlacement, i); /* Free previously allocated memory */
             exit(EXIT_FAILURE);
         }
@@ -99,7 +99,7 @@ void allocateMemory(char ***map, int ***carPlacement, int map_row, int map_col)
         (*carPlacement)[i] = (int *)malloc(map_col * sizeof(int));
         if ((*carPlacement)[i] == NULL)
         {
-            fprintf(stderr, "Memory allocation failed for carPlacement row. Exiting.\n");
+            printf("Memory allocation failed for carPlacement row. Exiting.\n");
             deallocateMemory(map, carPlacement, i + 1); /* Free previously allocated memory */
             exit(EXIT_FAILURE);
         }
