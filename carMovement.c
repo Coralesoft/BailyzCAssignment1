@@ -10,7 +10,7 @@ void moveCars(char **map, int **carPlacement, int map_row, int map_col)
     int **newCarPlacement = (int **)malloc(map_row * sizeof(int *));
     if (newCarPlacement == NULL)
     {
-        fprintf(stderr, "Memory allocation failed for newCarPlacement. Exiting.\n");
+        printf("Memory allocation failed for newCarPlacement. Exiting.\n");
         exit(EXIT_FAILURE);
     }
 
@@ -20,7 +20,7 @@ void moveCars(char **map, int **carPlacement, int map_row, int map_col)
         newCarPlacement[i] = (int *)malloc(map_col * sizeof(int));
         if (newCarPlacement[i] == NULL)
         {
-            fprintf(stderr, "Memory allocation failed for newCarPlacement row. Exiting.\n");
+            printf("Memory allocation failed for newCarPlacement row. Exiting.\n");
             /* Use k here, now that it has been declared at the top */
             for (k = 0; k < i; k++)
             {
