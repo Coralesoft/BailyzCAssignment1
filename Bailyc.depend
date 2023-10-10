@@ -1,0 +1,109 @@
+# depslib dependency file v1.0
+1696051020 source:/home/corale/Downloads/Bailey/Ass1/Bailyc/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"random.h"
+	"mapping.h"
+	"player.h"
+	"newsleep.h"
+	"terminal.h"
+	"carMovement.h"
+
+1695207222 /home/corale/Downloads/Bailey/Ass1/Bailyc/random.h
+
+1695279914 /home/corale/Downloads/Bailey/Ass1/Bailyc/mapping.h
+
+1695270936 /home/corale/Downloads/Bailey/Ass1/Bailyc/player.h
+
+1695230546 /home/corale/Downloads/Bailey/Ass1/Bailyc/newsleep.h
+
+1695258626 /home/corale/Downloads/Bailey/Ass1/Bailyc/terminal.h
+
+1696048661 source:/home/corale/Downloads/Bailey/Ass1/Bailyc/mappingFunc.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"random.h"
+	"mapping.h"
+
+1695230658 source:/home/corale/Downloads/Bailey/Ass1/Bailyc/newsleep.c
+	<time.h>
+	"newsleep.h"
+
+1696048789 source:/home/corale/Downloads/Bailey/Ass1/Bailyc/playerMovement.c
+	<stdio.h>
+	"player.h"
+	"mapping.h"
+
+1695207224 source:/home/corale/Downloads/Bailey/Ass1/Bailyc/random.c
+	<stdlib.h>
+	<time.h>
+	"random.h"
+
+1695264946 source:/home/corale/Downloads/Bailey/Ass1/Bailyc/terminal.c
+	<stdio.h>
+	<termios.h>
+	"terminal.h"
+
+1696050888 source:/home/corale/Downloads/Bailey/Ass1/Bailyc/carMovement.c
+	"carMovement.h"
+
+1696050925 /home/corale/Downloads/Bailey/Ass1/Bailyc/carMovement.h
+
+1696909279 source:/home/colin/Downloads/Bailyc/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<ctype.h>
+	"random.h"
+	"mapping.h"
+	"player.h"
+	"newsleep.h"
+	"terminal.h"
+	"carMovement.h"
+
+1695207222 /home/colin/Downloads/Bailyc/random.h
+
+1695279914 /home/colin/Downloads/Bailyc/mapping.h
+
+1696739294 /home/colin/Downloads/Bailyc/player.h
+
+1695230546 /home/colin/Downloads/Bailyc/newsleep.h
+
+1695258626 /home/colin/Downloads/Bailyc/terminal.h
+
+1696063711 /home/colin/Downloads/Bailyc/carMovement.h
+
+1696753770 source:/home/colin/Downloads/Bailyc/mappingFunc.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"random.h"
+	"mapping.h"
+
+1695230658 source:/home/colin/Downloads/Bailyc/newsleep.c
+	<time.h>
+	"newsleep.h"
+
+1696753547 source:/home/colin/Downloads/Bailyc/playerMovement.c
+	<stdio.h>
+	"player.h"
+	"mapping.h"
+
+1695207224 source:/home/colin/Downloads/Bailyc/random.c
+	<stdlib.h>
+	<time.h>
+	"random.h"
+
+1695264946 source:/home/colin/Downloads/Bailyc/terminal.c
+	<stdio.h>
+	<termios.h>
+	"terminal.h"
+
+1696910148 source:/home/colin/Downloads/Bailyc/carMovement.c
+	"carMovement.h"
+	<stdlib.h>
+	<stdio.h>
+

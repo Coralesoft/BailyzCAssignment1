@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Bailyc" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Bailyc" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="11 12" />
+				<Compiler>
+					<Add option="-pedantic" />
+					<Add option="-ansi" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Bailyc" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-ansi" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="carMovement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="carMovement.h" />
+		<Unit filename="game_1.txt" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="makefile" />
+		<Unit filename="mapping.h" />
+		<Unit filename="mappingFunc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="newsleep.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="newsleep.h" />
+		<Unit filename="player.h" />
+		<Unit filename="playerMovement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="random.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="random.h" />
+		<Unit filename="terminal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="terminal.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
